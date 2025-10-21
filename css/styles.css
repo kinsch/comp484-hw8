@@ -128,3 +128,29 @@ footer a {
 	padding: 50px;
 	overflow: hidden;
 }
+
+/*Nav with no list*/
+nav {
+	background: white;
+	margin-bottom: 5px;
+	/*Keeping nav at top of page*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100% /*Have nav span entire width of screen*/
+}
+.display {
+	text-align: center;
+}
+.display a {
+	padding: 10px;
+	display: inline-block;
+	background: white;
+	font-family: "Raleway", sand-serif;
+	text-decoration: none; /*No underline wanted*/
+	color: #132642;
+}
+.display a:hover {
+	color: #6286BB;
+	background: #f0f0f0;
+}
