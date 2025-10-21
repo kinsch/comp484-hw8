@@ -122,7 +122,7 @@ footer a {
 	/*Adding background image to this section*/
 	background: linear-gradient(rgba(100,118,145,0.8), 
 		rgba(100,118,145,0.8)),
-	    url(/images/Oceans.jpeg) no-repeat center center;
+	    url(../images/Oceans.jpeg) no-repeat center center;
 	background-size: cover;
 	/*Background image effect*/
 	/*MDN reference: https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment*/
