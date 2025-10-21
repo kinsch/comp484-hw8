@@ -1,0 +1,130 @@
+/* Color Palette
+# - color 1 #6286BB denim blue
+# - color 2 #647691 grayish blue
+# - color 3 #538DE6 light-ish blue
+# - color 4 #132642 navy blue (dark)
+# 2 Added google fonts are Merriweather and Raleway
+*/
+
+/* Global styles 
+------------------------------------*/
+/*Border box*/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+    background: white;
+	margin: 0;
+}
+h1 {
+	font-family: "Merriweather", serif;
+	font-size: 1.7em;
+	font-weight: 400;
+	margin-bottom: .4em;
+	color: white;
+}
+h2 {
+	font-family: "Raleway", cursive;
+	font-size: 2.6em;
+	font-weight: 300;
+	margin-bottom: .2em;
+	color: white;
+	margin-top: 0px;
+
+}
+h3 {
+	font-family: "Merriweather", serif;
+	font-size: 1.2em;
+	font-weight: 800;
+	margin-top: 2em;
+	color: white;
+}
+p {
+	font-family: "Merriweather", serif;
+	font-size: 1em;
+	font-weight: 400;
+	margin-bottom: 1em;
+	color: white;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background-color: #6286BB;
+    padding: 20px;
+	color: white;
+}
+header h1 {
+	margin: 0;
+}
+header h2 {
+	margin: 0;
+}
+/*Profile image*/
+.profile-img {
+	/*width: 300px;*/
+	border-radius: 50%;
+	/*float: left;*/
+	/*margin-right: 30px;*/
+}
+/*Column narrow and column wide*/
+.column-narrow {
+	width: 30%;
+	float: left;
+	padding-right: 3%;
+	min-height: 175px;
+}
+.column-wide {
+	width: 70%;
+	float: left;
+	min-height: 225px;
+}
+footer {
+    background-color: #132642;
+    padding: 20px;
+	color: white;
+	text-align: center; /*Align content of the footer*/
+}
+footer h2 {
+	color: white;
+    margin-top: 0;
+}
+footer a {
+	color: white;
+}
+/*For contact info*/
+.contact-info a{
+	padding: 10px;
+	display: inline-block;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+	background-color: #647691;
+	padding: 20px;
+	color: white;
+    margin-bottom: 0;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+	background-color: #538DE6;
+	padding: 20px;
+	color: white;
+    margin-bottom: 0;
+}
+
+/*Content Wrapper*/
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+}
